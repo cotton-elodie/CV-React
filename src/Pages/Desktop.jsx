@@ -3,16 +3,16 @@ import Experiences from '../Components/Experiences/Experiences';
 import Formations from '../Components/Formations/Formations';
 import Skill from '../Components/Skill/Skill';
 import Presentation from "../Components/Presentation/Presentation";
-import { Interest } from "../Components/Interest/Interest";
+import Interest from "../Components/Interest/Interest";
 
 export  const Desktop = () => {
   return (
-    <div id="desktop">
+    <div id="desktop" className="desktop">
       <Presentation/>
-      <Experiences />
+      {/* <Experiences />
       <Formations />
       <Skill />
-      <Interest/>
+      <Interest/> */}
     </div>
   );
 };

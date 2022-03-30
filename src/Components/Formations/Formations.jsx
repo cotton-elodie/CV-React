@@ -1,4 +1,5 @@
 import React from "react";
+import '../Formations/formation.scss'
 
 const Formations = () => {
   return (

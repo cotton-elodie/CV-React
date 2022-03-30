@@ -1,5 +1,11 @@
+@use "src/styles/vars";
+
 .App {
-  text-align: center;
+  padding-top: 0px;
+}
+
+h2{
+  font-size: 1em;
 }
 
 #desktop {
@@ -9,7 +15,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   #desktop {
     display: none;
   }
@@ -30,7 +36,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #2ebfe7;
 }
 
 @keyframes App-logo-spin {
@@ -40,4 +46,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h3{
+  background-color: #e4b1a5;
+  color: #d9dcd4;
+  padding: 0.5em;
+  width: 15em;
+  size: 0.5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,7 +1,9 @@
-import './App.css';
 import { Desktop } from '../../Pages/Desktop';
 import Mobile from '../../Pages/Mobile';
-import React from 'react'
+import React from 'react';
+
+import './App.css';
+
 
 
 function App() {

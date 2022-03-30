@@ -4,14 +4,14 @@ import Presentation from '../Components/Presentation/Presentation';
 import Experiences from '../Components/Experiences/Experiences';
 import Formations from '../Components/Formations/Formations';
 import Skill from '../Components/Skill/Skill';
-import { Interest } from '../Components/Interest/Interest';
+import Interest  from '../Components/Interest/Interest';
 import BurgerMenu from '../Components/BurgerMenu/BurgerMenu';
 
 const Mobile = () => {
 
 
   return (
-    <div id="mobile">
+    <div id="mobile" className='mobile'>
       <BurgerMenu/>
       <Routes>
         <Route path='/' element={<Presentation/>} ></Route>
