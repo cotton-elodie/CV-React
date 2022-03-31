@@ -35,6 +35,7 @@
       padding: 30px 20px;
       line-height: 22px;
       word-spacing: 1px;
+      text-align: justify;
     }
 
     &-image {
@@ -69,7 +70,9 @@ svg {
       flex-direction: column;
 
       &-text {
+        width: 60%;
         margin: 0px auto;
+        text-align: justify;
       }
 
       &-image {
@@ -77,6 +80,7 @@ svg {
       }
 
       &-links {
+        width: 60%;
         margin: 0px auto;
       }
     }

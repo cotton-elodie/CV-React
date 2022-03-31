@@ -2,19 +2,16 @@
 
 .formations {
   margin-top: 20px;
-  line-height: 20px;
-  padding-left: 10px;
+  padding: 30px 20px;
+  word-spacing: 1px;
+  line-height: 24px;
 
-  &-container {
-    margin-top: 30px;
 
-    &-title {
-      margin-top: 20px;
-    }
-    &-span {
-      color: $grey;
-      padding-left: 15px;
-      font-size: 0.9em;
-    }
+  &-title {
+    margin-top: 20px;
+  }
+  &-span {
+    color: $black;
+    font-size: 0.9em;
   }
 }

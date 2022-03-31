@@ -1,0 +1,16 @@
+@import "src/styles/vars";
+
+.interest {
+  margin-top: 20px;
+  line-height: 20px;
+  padding-left: 10px;
+  padding: 30px 20px;
+
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+  }
+  

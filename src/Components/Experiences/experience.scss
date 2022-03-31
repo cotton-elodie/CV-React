@@ -1,18 +1,13 @@
-@import 'src/styles/vars';
+@import "src/styles/vars";
 
 .experience {
-    margin-top: 20px;
-    line-height: 20px;
-    padding-left: 10px;
+  margin-top: 20px;
+  padding: 30px 20px;
+  word-spacing: 1px;
+  line-height: 24px;
 
-    
-
-    &-span{
-        color : $grey;
-        padding-left : 15px;
-        font-size: 0.9em;
-        
-    }
-    &-list{
-    }
+  &-span {
+    color: $black;
+    font-size: 0.9em;
+  }
 }

@@ -4,8 +4,10 @@ import "../Interest/interest.scss";
 
 const Interest = () => {
   return (
-    <div>
+    <div className="interest">
       <h3>Centres d'interêt</h3>
+      <div className="interest-container">
+        <div className="interest-container-left">
       <p>
         <BsFlower1 />
         Jardinage
@@ -14,7 +16,8 @@ const Interest = () => {
         <BsScissors />
         Couture
       </p>
-      <div>
+      </div>
+      <div className="interest-container-right">
         <BsFillMapFill />
         Voyages :
         <ul>
@@ -22,11 +25,12 @@ const Interest = () => {
           <li>- Séjour de jours à New York</li>
           <li>- Road trip de 12 jours au Portugal </li>
           <li>
-            - Divers séjours en Espagne (Barcelone, Bilbao, Sarragosse, Saint
-            Jacques de Copostelle,...)
+            - Divers séjours en Espagne (Barcelone, Bilbao,...)
           </li>
         </ul>
       </div>
+      </div>
+      
     </div>
   );
 };

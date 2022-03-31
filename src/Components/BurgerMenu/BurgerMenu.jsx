@@ -28,6 +28,9 @@ const BurgerMenu = () => {
       <a className="menu-item" href="/competences">
         Compétences
       </a>
+      <a className="menu-item" href="/interet">
+        Centres d'intérêt
+      </a>
     </Menu>
   );
 };

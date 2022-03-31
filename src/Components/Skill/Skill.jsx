@@ -72,7 +72,7 @@ const Skill = () => {
           src={github}
           alt="logo github"
         />
-        
+
         <img
           className="skill-container-img"
           width="80px"
@@ -89,14 +89,15 @@ const Skill = () => {
         />
       </div>
       <div className="skill-container-botton">
-        <ul className="skill-container-botton-ul">
-          <span> Soft skills</span>
-          <li className="skill-container-botton-soft" >#écoute</li>
-          <li className="skill-container-botton-soft">#organisé</li>
-          <li className="skill-container-botton-soft">#équipe</li>
-          <li className="skill-container-botton-soft">#humilité</li>
-          <li className="skill-container-botton-soft">#changement</li>
-        </ul>
+        {/* <ul className="skill-container-botton-ul"> */}
+        {/* <span> Soft skills</span> */}
+        <p className="skill-container-botton-soft">#écoute</p>
+        <p className="skill-container-botton-soft">#organisé</p>
+        <p className="skill-container-botton-soft">#équipe</p>
+        <p className="skill-container-botton-soft">#humilité</p>
+        <p className="skill-container-botton-soft">#changement</p>
+
+        {/* </ul> */}
       </div>
     </div>
   );
