@@ -1,1 +1,23 @@
-@import 'src/styles/vars';
+@import "src/styles/vars";
+
+.skill {
+  margin-top: 80px;
+
+  &-container-top {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    &-img {
+      padding: 18px;
+    }
+  }
+
+  &-container-botton{
+
+    &-ul{
+        text-align: center;
+    }
+  }
+}
+

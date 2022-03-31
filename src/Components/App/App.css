@@ -49,8 +49,8 @@ h2{
 }
 
 h3{
-  background-color: #e4b1a5;
-  color: #d9dcd4;
+  background-color:#ecccc4;;
+  color: #2b222d;
   padding: 0.5em;
   width: 15em;
   size: 0.5em;
@@ -59,4 +59,9 @@ h3{
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+h4{
+  font-weight: bold;
+  padding-bottom: 4px;
 }

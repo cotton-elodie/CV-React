@@ -1,1 +1,20 @@
-@import 'src/styles/vars';
+@import "src/styles/vars";
+
+.formations {
+  margin-top: 20px;
+  line-height: 20px;
+  padding-left: 10px;
+
+  &-container {
+    margin-top: 30px;
+
+    &-title {
+      margin-top: 20px;
+    }
+    &-span {
+      color: $grey;
+      padding-left: 15px;
+      font-size: 0.9em;
+    }
+  }
+}

@@ -9,10 +9,10 @@ export  const Desktop = () => {
   return (
     <div id="desktop" className="desktop">
       <Presentation/>
-      {/* <Experiences />
+      <Experiences />
       <Formations />
       <Skill />
-      <Interest/> */}
+      <Interest/>
     </div>
   );
 };

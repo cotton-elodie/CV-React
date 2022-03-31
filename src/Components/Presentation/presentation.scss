@@ -22,6 +22,7 @@
     &-function {
       font-size: 16px;
       text-align: center;
+      padding-top: 10px
     }
   }
 
@@ -32,6 +33,8 @@
     &-text {
       width: 40%;
       padding: 30px 20px;
+      line-height: 22px;
+      word-spacing: 1px;
     }
 
     &-image {
@@ -47,73 +50,36 @@
     &-links {
       width: 40%;
       padding: 30px 20px;
+      line-height: 20px;
+      font-size: 0.8em;
+      
+      &-border {
+        border: 0.5px solid #d3dbde;
+      }
+    }
+  }
+}
+svg {
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  .presentation {
+    &-bottom {
+      flex-direction: column;
+
+      &-text {
+        margin: 0px auto;
+      }
+
+      &-image {
+        margin: 0px auto;
+      }
+
+      &-links {
+        margin: 0px auto;
+      }
     }
   }
 }
 
-@media only screen and (max-width: 750px) {
-    .presentation {
-
-      
-        &-bottom {
-            flex-direction: column;
-
-            &-text {
-                margin: 0px auto;
-              }
-          
-              &-image {
-                margin: 0px auto;
-              }
-        
-          
-              &-links {
-                margin: 0px auto;
-              }
-        }
-    }
-  }
-
-//   &-name {
-//     display: flex;
-//     flex-wrap: wrap;
-//     align-items: center;
-//     background: vars.$green;
-//     width: 100%;
-//     color: white;
-//     height: 150px;
-//   }
-
-//   &-img {
-//     border-radius: 50%;
-//     height: 80px;
-//     margin: auto;
-//   }
-//   &-contact {
-//     margin: 20px;
-//     padding: 10px;
-//     font-size: 0.8em;
-//     float: right;
-//   }
-
-//   &-pres {
-//     width: 150px;
-//     padding: 10px;
-//     word-spacing: 1rem;
-//     float: left;
-//   }
-
-// }
-
-// svg {
-//   margin-right: 10px;
-// }
-// h2,
-// h4 {
-//   padding-left: 2em;
-//   padding-right: 2em;
-// }
-// ul {
-//   float: right;
-//   width: 150px;
-// }

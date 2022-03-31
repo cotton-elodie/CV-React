@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
 body {
   margin: 0px;
-  font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Delius', cursive; 
+  line-height: 26px;
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
 }
