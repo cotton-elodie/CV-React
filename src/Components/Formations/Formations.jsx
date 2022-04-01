@@ -1,4 +1,7 @@
 import React from "react";
+import titre from '../../assets/images/titre.png'
+import iut from '../../assets/images/iut.png'
+
 import "../Formations/formation.scss";
 
 const Formations = () => {
@@ -6,6 +9,7 @@ const Formations = () => {
     <div className="formations">
       <h3>Diplômes et formations</h3>
       <div className="formations">
+        <img src={titre} alt="logo titre professionnel" width="50px" height="50px" ></img>
         <h4 className="formations-title">
           Titre Professionnel Développeur Web et Web Mobile - Niveau V - en
           cours
@@ -24,6 +28,19 @@ const Formations = () => {
         </ul>
       </div>
       <div className="formations">
+      <img src={iut} alt="logo iut Paul Sabatier Tarbes" width="100px" height="50px" ></img>
+
+        <h4 className="formations-title">
+          Diplôme Universitaire Technique de vente et distributtion
+        </h4>
+        <span className="formations-span">
+          De septembre 2003 à juin 2004 Institut universitaire technologique
+          Paul Sabatier
+        </span>
+      </div>
+      <div className="formations">
+      <img src={iut} alt="logo iut Paul Sabatier Tarbes" width="100px" height="50px" ></img>
+
         <h4 className="formations-title">
           DUT Gestion des Entreprises et Administrations option Petite et
           Moyenne Organisation
